@@ -15,6 +15,9 @@ function App() {
     <Router>
       <Header />
       <Navigation />
+      <Routes>
+        <Route path="/" element={<About />} />
+      </Routes>
       <Footer />
     </Router>
   );

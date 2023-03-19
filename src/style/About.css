@@ -1,0 +1,23 @@
+.about {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+  color: #f0f0f0;
+}
+
+.about-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.about-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.about-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

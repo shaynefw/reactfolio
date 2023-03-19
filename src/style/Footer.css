@@ -1,18 +1,17 @@
 .footer {
-    background-color: #1a1a1a;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer-link {
-    color: #f0f0f0;
-    text-decoration: none;
-    margin: 0 0.5rem;
-  }
-  
-  .footer-link:hover {
-    color: #3a3a3a;
-  }
-  
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer-link:hover {
+  color: #3a3a3a;
+}
