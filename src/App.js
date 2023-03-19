@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Header />
       <Navigation />
+      <Footer />
     </Router>
   );
 }
