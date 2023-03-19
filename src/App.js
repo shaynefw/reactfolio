@@ -19,6 +19,7 @@ function App() {
         <div className="main-container">
           <Routes>
             <Route path="/" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
           </Routes>
         </div>
         <Footer />
