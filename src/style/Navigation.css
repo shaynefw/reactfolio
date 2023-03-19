@@ -1,6 +1,10 @@
 .navigation {
   background-color: #1a1a1a;
   padding: 0.5rem 0;
+  position: fixed;
+  top: 4em;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-list {
