@@ -13,12 +13,16 @@ import "./style/App.css";
 function App() {
   return (
     <Router>
-      <Header />
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<About />} />
-      </Routes>
-      <Footer />
+      <div className="app">
+        <Header />
+        <Navigation />
+        <div className="main-container">
+          <Routes>
+            <Route path="/" element={<About />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
     </Router>
   );
 }
