@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../style/Resume.css';
 
+// Resume section that displays the resume and proficiencies.
 const Resume = () => {
   return (
     <Container className="resume-section">

@@ -3,6 +3,7 @@ import "../style/Contact.css";
 import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
 //import emailjs from 'emailjs-com';
 
+// Contact section that displays a form to send an email.
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -13,21 +14,24 @@ const Contact = () => {
   const [showError, setShowError] = useState(false);
   const [validated, setValidated] = useState(false);
 
+  // Function to handle changes to the form fields.
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Function to handle the form submission.
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.currentTarget;
-    if (form.checkValidity() === false) {
+    if (form.checkValidity() === false) { // Check if the form is valid.
       e.stopPropagation();
     } else {
       // ... (email sending code)
     }
-    setValidated(true);
+    setValidated(true); // Set validated to true to show the form validation.
   };
 
+  // Return the contact form.
   return (
     <Container>
       <Row>

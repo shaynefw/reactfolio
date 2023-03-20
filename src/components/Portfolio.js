@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./partial-components/Project";
 import "../style/Portfolio.css";
 
+// Project array that contains the title, image, app link, and repo link for each project.
 const projects = [
   {
     title: "GennyREADME",
@@ -41,6 +42,7 @@ const projects = [
   },
 ];
 
+// Portfolio section that links the projects array to the Project component.
 const Portfolio = () => {
   return (
     <section className="portfolio">
