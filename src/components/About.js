@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/About.css";
 
+// About section that displays a picture and a short bio.
 const About = () => {
   return (
     <section className="about">

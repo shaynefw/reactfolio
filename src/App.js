@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/App.css";
 
+// Main app component that renders the header, navigation, and footer components. The main-container div is where the content of the page is rendered.
 function App() {
   return (
     <Router>

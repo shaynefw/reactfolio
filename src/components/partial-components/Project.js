@@ -1,6 +1,7 @@
 import React from "react";
 import "../../style/Project.css";
 
+// Project component that displays the image of the project, the title, and the links to the live application and the GitHub repository.
 const Project = ({ title, image, appLink, repoLink }) => {
   return (
     <div className="project-card">
