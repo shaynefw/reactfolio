@@ -16,10 +16,11 @@ const Resume = () => {
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>SQL and NoSQL databases</li>
+            <li><span className="teal-color">M</span>ongoDB</li>
+            <li><span className="teal-color">E</span>xpress</li>
+            <li><span className="teal-color">R</span>eact</li>
+            <li><span className="teal-color">N</span>ode.js</li>
+            <li>SQL</li>
           </ul>
         </Col>
       </Row>
