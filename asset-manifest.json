@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shaynefw/static/css/main.6a1933de.css",
+    "main.js": "/shaynefw/static/js/main.90c4f714.js",
+    "index.html": "/shaynefw/index.html",
+    "main.6a1933de.css.map": "/shaynefw/static/css/main.6a1933de.css.map",
+    "main.90c4f714.js.map": "/shaynefw/static/js/main.90c4f714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a1933de.css",
+    "static/js/main.90c4f714.js"
+  ]
+}
