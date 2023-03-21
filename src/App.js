@@ -19,7 +19,7 @@ function App() {
         <Navigation />
         <div className="main-container">
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/reactfolio" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />

@@ -9,7 +9,7 @@ const Resume = () => {
       <Row>
         <Col>
           <h2>Resume</h2>
-          <Button variant="dark" href="https://drive.google.com/file/d/1U3Wi37VZzqQTAooGa4_SCZBY9kKtsLqO/view?usp=sharing" target="_blank">
+          <Button variant="dark" href="2022swres.pdf" download> 
             Download Resume
           </Button>
           <h3>Proficiencies</h3>
