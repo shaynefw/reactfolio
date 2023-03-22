@@ -13,7 +13,7 @@ const projects = [
   {
     title: "WikiGo",
     image: "https://github.com/jjocelynn/WikiGo/raw/main/assets/images/WikiGO-landing-page.jpg",
-    appLink: "https://tektriage.herokuapp.com/",
+    appLink: "https://jjocelynn.github.io/WikiGo/",
     repoLink: "https://github.com/jjocelynn/WikiGo",
   },
   {
