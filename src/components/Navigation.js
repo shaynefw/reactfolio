@@ -7,13 +7,13 @@ import '../style/Navigation.css';
 const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-      <Navbar.Brand as={Link} to="/reactfolio/about">
+      <Navbar.Brand as={Link} to="/reactfolio/">
         Shayne Whittle
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={Link} to="/reactfolio/about" activeClassName="active">
+          <Nav.Link as={Link} to="/reactfolio/" activeClassName="active">
             About Me
           </Nav.Link>
           <Nav.Link as={Link} to="/reactfolio/portfolio" activeClassName="active">
