@@ -5,6 +5,12 @@ import "../style/Portfolio.css";
 // Project array that contains the title, image, app link, and repo link for each project.
 const projects = [
   {
+    title: "Getaway",
+    image: "https://github.com/shohei-mochizuki/getaway/raw/main/client/public/images/screenshot1.jpg",
+    appLink: "https://getaway.herokuapp.com/",
+    repoLink: "https://github.com/shohei-mochizuki/getaway",
+  },
+  {
     title: "GennyREADME",
     image: "https://github.com/shaynefw/GennyREADME/raw/main/assets/images/gennySS.png",
     appLink: "https://shaynefw.github.io/GennyREADME/",
