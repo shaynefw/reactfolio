@@ -6,7 +6,7 @@ import "../style/Portfolio.css";
 const projects = [
   {
     title: "Getaway",
-    image: "https://github.com/shaynefw/TekTriage/blob/main/public/images/ss.png",
+    image: "https://github.com/shohei-mochizuki/getaway/raw/main/client/public/images/screenshot1.jpg",
     appLink: "https://getaway.herokuapp.com/",
     repoLink: "https://github.com/shohei-mochizuki/getaway",
   },
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "TekTriage",
-    image: "https://github.com/shaynefw/TekTriage/raw/main/public/images/localhost_3001_.png",
+    image: "https://github.com/shaynefw/TekTriage/blob/main/public/images/ss.png?raw=true",
     appLink: "https://tektriage.herokuapp.com/",
     repoLink: "https://github.com/shaynefw/TekTriage",
   },
