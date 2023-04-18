@@ -7,22 +7,22 @@ import '../style/Navigation.css';
 const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-      <Navbar.Brand as={Link} to="https://shaynefw.github.io/">
+      <Navbar.Brand as={Link} to="/">
         Shayne Whittle
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={Link} to="https://shaynefw.github.io/about" activeClassName="active">
+          <Nav.Link as={Link} to="/about" activeClassName="active">
             About Me
           </Nav.Link>
-          <Nav.Link as={Link} to="https://shaynefw.github.io/portfolio" activeClassName="active">
+          <Nav.Link as={Link} to="/portfolio" activeClassName="active">
             Portfolio
           </Nav.Link>
-          <Nav.Link as={Link} to="https://shaynefw.github.io/contact" activeClassName="active">
+          <Nav.Link as={Link} to="/contact" activeClassName="active">
             Contact
           </Nav.Link>
-          <Nav.Link as={Link} to="https://shaynefw.github.io/resume" activeClassName="active">
+          <Nav.Link as={Link} to="/resume" activeClassName="active">
             Resume
           </Nav.Link>
         </Nav>
