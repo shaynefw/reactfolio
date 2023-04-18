@@ -19,10 +19,10 @@ function App() {
         <Navigation />
         <div className="main-container">
           <Routes>
-            <Route path="https://shaynefw.github.io/about" element={<About />} />
-            <Route path="https://shaynefw.github.io/portfolio" element={<Portfolio />} />
-            <Route path="https://shaynefw.github.io/contact" element={<Contact />} />
-            <Route path="https://shaynefw.github.io/resume" element={<Resume />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
